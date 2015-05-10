@@ -1,0 +1,98 @@
+///////////////////////////////////////////////////////////////
+///              Polymath Programming Presents              ///
+///                                                         ///
+///       =========   =======   ===    ===  =========       ///
+///       =========  =========  ====   ===  =========       ///
+///          ===     ===   ===  =====  ===  ===             ///
+///          ===     ===   ===  ====== ===  ======          ///
+///          ===     =========  === ======  ======          ///
+///          ===     ===   ===  ===  =====  ===             ///
+///        =====     ===   ===  ===   ====  =========       ///
+///        ====      ===   ===  ===    ===  =========       ///
+///              Just Another Ninja Engine v2               ///
+///                                                         ///
+///////////////////////////////////////////////////////////////
+
+ Welcome to my "Last Ninja" game for the Windows platform. This
+game is extreamly short, comprising of 10 screens, 1 weapon, 1
+logic puzzle, and 8 enemies.
+
+The main difference between my Last Ninja game and all others
+is the final screen, after you cross the water. I hope you like
+the idea. If the enemies working like the original game and
+SoA's engine, then I think that it would work much better, but
+as it is, I like it.
+
+After the contact info, I've added a number of blank lines to
+split the tip for the logic puzzle, so that if you want to read
+it you can, but don't need to.
+
+You play with game with infinate lives.
+
+Anyway, I hope you enjoy playing it as much as I enjoyed writing
+it
+
+
+Controls:
+
+The controls perform in a similar way to the original Last Ninja
+controls. Have a play about in the start screen before you move
+on to get the idea.
+
+	Arrow keys	Move player
+	Ctrl key	Fire (Attack and Jump)
+	Space bar	Switch weapons/inventory
+	` (backtick)	Switch between debug mode and play mode
+	F1		Information
+	Alt+F4		Quit
+
+	Debug keys:
+		F2	Test drowning
+		F3	Test injury
+		F4	Gargoyle (switch enemy AI on/off)
+		F5	Logic Cheat
+
+
+Greetings:
+
+The original Last Ninja development team for producing one of the
+best games in the world, ever, ever! ;-)
+
+Kai for play testing, and the fantastic Last Ninja archive site
+at http://lastninja.c64.org
+
+SoA for producing an astonishing piece of work in his Last Ninja
+engine. Mine can only dream of being like this! ;-) Can't wait for
+the editor to be released!
+
+Andy and Vole for some play testing and feedback.
+
+
+Contact:
+
+email:	jane@pmprog.co.uk
+web:	http://www.pmprog.co.uk
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Logic Help:
+
+You need to kick two objects in the map to raise the stepping stones
+in the water

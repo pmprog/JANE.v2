@@ -1,0 +1,40 @@
+AppIco			icon	"..\\gfx\\AppIco.ico"
+
+UI			bitmap	"..\\gfx\\UserInterface.bmp"
+
+NINJA_EMPTY		bitmap	"..\\gfx\\Ninja-Empty.bmp"
+NINJA_SWORD		bitmap	"..\\gfx\\Ninja-Sword.bmp"
+
+
+ENEMY_EMPTY		bitmap	"..\\gfx\\Enemy-Empty.bmp"
+ENEMY_SWORD		bitmap	"..\\gfx\\Enemy-Sword.bmp"
+
+
+SCENERY_BUSH_L	bitmap	"..\\gfx\\scenery\\Bush_large.bmp"
+SCENERY_BUSH_S	bitmap	"..\\gfx\\scenery\\Bush_small.bmp"
+SCENERY_POST		bitmap	"..\\gfx\\scenery\\Post.bmp"
+SCENERY_ROCK_H	bitmap	"..\\gfx\\scenery\\Rock_huge.bmp"
+SCENERY_ROCK_L	bitmap	"..\\gfx\\scenery\\Rock_large.bmp"
+SCENERY_ROCK_M	bitmap	"..\\gfx\\scenery\\Rock_medium.bmp"
+SCENERY_ROCK_S	bitmap	"..\\gfx\\scenery\\Rock_small.bmp"
+SCENERY_ROCK_T	bitmap	"..\\gfx\\scenery\\Rock_mini.bmp"
+SCENERY_TREE_B	bitmap	"..\\gfx\\scenery\\Tree_bonzai.bmp"
+SCENERY_TREE_H	bitmap	"..\\gfx\\scenery\\Tree_huge.bmp"
+SCENERY_TREE_L	bitmap	"..\\gfx\\scenery\\Tree_large.bmp"
+SCENERY_TREE_M	bitmap	"..\\gfx\\scenery\\Tree_medium.bmp"
+SCENERY_TREE_S	bitmap	"..\\gfx\\scenery\\Tree_small.bmp"
+
+MAP_L1			bitmap	"..\\gfx\\map\\corner_l.bmp"
+MAP_L2			bitmap	"..\\gfx\\map\\reverse_l.bmp"
+MAP_STR		bitmap	"..\\gfx\\map\\straight.bmp"
+MAP_T1			bitmap	"..\\gfx\\map\\upsideT.bmp"
+MAP_WATER1		bitmap	"..\\gfx\\map\\water1.bmp"
+MAP_WATER2		bitmap	"..\\gfx\\map\\water2.bmp"
+MAP_DUEL		bitmap	"..\\gfx\\map\\duelopp.bmp"
+MAP_COMPLETE		bitmap	"..\\gfx\\map\\complete.bmp"
+
+INV_NONE		bitmap	"..\\gfx\\Inventory\\empty.bmp"
+INV_SWORD		bitmap	"..\\gfx\\Inventory\\Sword.bmp"
+INV_KEYSLV		bitmap	"..\\gfx\\Inventory\\Key-Silver.bmp"
+
+PICKUP_SWORD		bitmap	"..\\gfx\\scenery\\Inv_Sword.bmp"

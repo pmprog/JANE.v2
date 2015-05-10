@@ -1,0 +1,120 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Ninja States
+NINJA_STATE_WALKING		equ	000h
+NINJA_STATE_STANDING		equ	001h
+NINJA_STATE_JUMPING		equ	002h
+NINJA_STATE_KICKING		equ	003h
+NINJA_STATE_PUNCHING		equ	004h
+NINJA_STATE_SLASHING		equ	005h
+NINJA_STATE_PICKUP		equ	006h	; \_ Same animation, same functions, but for clarity in code
+NINJA_STATE_PARRY		equ	006h	; /
+NINJA_STATE_HURT		equ	007h
+NINJA_STATE_DYING		equ	008h
+NINJA_STATE_DEAD		equ	009h
+NINJA_STATE_DROWNING		equ	00Ah
+NINJA_STATE_SINKING		equ	00Bh	; Used for sinking anim, but for room transition, not dying
+NINJA_STATE_JABING		equ	00Ch
+NINJA_STATE_SWITCHING	equ	00Dh
+
+NINJA_STATE_TRANSITION	equ	0FFh
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Ninja Directions
+NINJA_FACING_NORTH		equ	00h
+NINJA_FACING_EAST		equ	01h
+NINJA_FACING_SOUTH		equ	02h
+NINJA_FACING_WEST		equ	03h
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Ninja Controls
+NINJA_CONTROL_UP		equ	01h
+NINJA_CONTROL_RIGHT		equ	02h
+NINJA_CONTROL_DOWN		equ	04h
+NINJA_CONTROL_LEFT		equ	08h
+NINJA_CONTROL_DIRMASK	equ	0Fh
+NINJA_CONTROL_FIRE		equ	10h
+NINJA_CONTROL_CHEAT		equ	80h
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Ninja Keyboard
+NINJA_KEY_UP			equ	026h
+NINJA_KEY_LEFT		equ	025h
+NINJA_KEY_DOWN		equ	028h
+NINJA_KEY_RIGHT		equ	027h
+NINJA_KEY_FIRE		equ	011h
+NINJA_KEY_DEBUG		equ	0DFh
+NINJA_KEY_CHEAT		equ	076h
+NINJA_KEY_HELP		equ	070h
+NINJA_KEY_SWITCH		equ	020h
+
+NINJA_KEY_DEBUG_DROWN	equ	071h
+NINJA_KEY_DEBUG_HURT		equ	072h
+NINJA_KEY_DEBUG_GARGOYLE	equ	073h
+NINJA_KEY_DEBUG_LOGIC	equ	074h
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Screen Information
+GAME_SCREEN_WIDTH		equ	492
+GAME_SCREEN_HEIGHT		equ	366
+GAME_ACTION_WIDTH		equ	480
+GAME_ACTION_HEIGHT		equ	288
+GAME_ACTION_LEFT		equ	6
+GAME_ACTION_TOP		equ	6
+
+GAME_HEALTH_PLY_LEFT		equ	11
+GAME_HEALTH_PLY_TOP		equ	322
+GAME_HEALTH_PLY_WIDTH	equ	238
+GAME_HEALTH_PLY_HEIGHT	equ	8
+
+GAME_HEALTH_E1_LEFT		equ	11
+GAME_HEALTH_E1_TOP		equ	337
+GAME_HEALTH_E1_WIDTH		equ	238
+GAME_HEALTH_E1_HEIGHT	equ	8
+
+GAME_HEALTH_E2_LEFT		equ	11
+GAME_HEALTH_E2_TOP		equ	346
+GAME_HEALTH_E2_WIDTH		equ	238
+GAME_HEALTH_E2_HEIGHT	equ	8
+
+GAME_INVENTORY_LEFT		equ	255
+GAME_INVENTORY_TOP		equ	304
+GAME_INVENTORY_WIDTH		equ	91
+GAME_INVENTORY_HEIGHT	equ	52
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; General Constants
+GAME_MAX_HEALTH		equ	GAME_HEALTH_PLY_WIDTH
+
+NINJA_FRAME_WIDTH		equ	80
+NINJA_FRAME_HEIGHT		equ	100
+
+NINJA_FRAME_OFFSET_X		equ	40
+NINJA_FRAME_OFFSET_Y		equ	88
+
+TIMER_PAINTER			equ	23h
+TIMER_ANIMATOR		equ	24h
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Graphics Control Mode
+GAME_GRAPHICS_ROOM		equ	0
+GAME_GRAPHICS_SCROLL		equ	1	; For Multiplayer
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Inventory Types
+INVENTORY_TYPE_HANDHELD	equ	0
+INVENTORY_TYPE_THROW		equ	1
+INVENTORY_TYPE_TIMER		equ	2	; Collecting this type of item prevents item switching
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Enemy Inventory Types
+ENEMY_INVENTORY_NONE		equ	0
+ENEMY_INVENTORY_SWORD	equ	1
+ENEMY_INVENTORY_NUMC		equ	2
+ENEMY_INVENTORY_STAFF	equ	3
+ENEMY_INVENTORY_SHURIK	equ	4	; Gonna need ninja magic! ;-)
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Colour Maps
+COLOURS_SCENERY_TRANS	equ	08BFBFBh
+COLOURS_NINJA_TRANS		equ	0FFFFFFh
+COLOURS_ENERGY_NINJA		equ	09CCEFFh
+COLOURS_ENERGY_ENEMY		equ	0C60000h
+
+COLOURS_MAP_NOWALK		equ	0006600h
+COLOURS_MAP_WALK		equ	099CCCCh
+COLOURS_MAP_WATER		equ	0FF6600h
+COLOURS_MAP_TRANSITION	equ	0FFFFFFFFh
